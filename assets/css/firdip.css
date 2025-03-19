@@ -4105,8 +4105,12 @@ body.megamenu-popup-active .mobile-nav__content {
 .why-choose-one__top {
   margin-bottom: 38px;
 }
+
 .why-choose-one__top .sec-title {
   padding-bottom: 20px;
+}
+.why-choose-one__bottom{
+  padding-bottom: 70px !important; 
 }
 .why-choose-one__top .sec-title .sec-title__title {
   color: var(--firdip-white, #fff);
