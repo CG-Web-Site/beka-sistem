@@ -7860,7 +7860,17 @@ body.megamenu-popup-active .mobile-nav__content {
     padding: 16.55px 35px;
   }
 }
-
+@media (max-width: 768px) { /* 768px ve altı ekranlar için */
+  .element {
+      position: relative;
+      right: 40px;
+  }
+}
+.page-wrapper .main-header span{
+  position:relative;
+  right:40px;
+ }
+ 
 .product-details__buttons a:hover {
   color: var(--firdip-white, #fff);
 }
