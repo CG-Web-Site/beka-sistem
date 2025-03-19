@@ -7860,11 +7860,11 @@ body.megamenu-popup-active .mobile-nav__content {
     padding: 16.55px 35px;
   }
 }
-@media (max-width: 768px) { /* 768px ve altı ekranlar için */
-  .element {
-      position: relative;
-      right: 40px;
-  }
+@media (max-width: 768px) { 
+    .mobile-nav__btn {
+        position: relative;
+        right: 30px !important; /* Tarayıcı tarafından ezilmesini önlemek için */
+    }
 }
 .page-wrapper .main-header span{
   position:relative;
