@@ -4607,8 +4607,14 @@ body.megamenu-popup-active .mobile-nav__content {
 .why-choose-three__right {
   padding-top: 120px;
 }
+.why-choose-three__right_low {
+  padding-top: 0px;
+}
 @media (max-width: 991px) {
   .why-choose-three__right {
+    padding-top: 30px;
+  }
+  .why-choose-three__right_low {
     padding-top: 30px;
   }
 }
