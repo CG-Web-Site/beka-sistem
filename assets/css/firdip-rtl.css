@@ -7474,6 +7474,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .product__item__img__item {
   max-width: 228px;
+  max-width: 125px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;

@@ -16,6 +16,7 @@ body {
 .contact__input-box .bootstrap-select .dropdown-menu,
 .bootstrap-select .dropdown-toggle .filter-option {
   text-align: right;
+  padding-left: 20px;
 }
 
 .list-unstyled {
