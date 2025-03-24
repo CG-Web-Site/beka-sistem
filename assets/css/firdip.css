@@ -2246,6 +2246,7 @@ h6 {
   line-height: 214%;
   text-transform: uppercase;
 }
+
 .blog-card__fore__title {
   font-style: normal;
   font-weight: 700;
@@ -2426,7 +2427,7 @@ h6 {
 /*--------------------------------------------------------------
 # Custom Cursor
 --------------------------------------------------------------*/
-.custom-cursor__cursor {
+/* .custom-cursor__cursor {
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -2440,7 +2441,7 @@ h6 {
   -webkit-transform: translate(calc(-50% + 5px), -50%);
   transform: translate(calc(-50% + 5px), -50%);
   z-index: 999991;
-}
+} */
 .custom-cursor__cursor-two {
   width: 10px;
   height: 10px;

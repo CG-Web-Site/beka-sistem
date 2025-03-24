@@ -2,6 +2,7 @@
 /* Base;
  *
  */
+ 
 .noUi-pips,
 .noUi-pips * {
 -moz-box-sizing: border-box;
@@ -71,8 +72,8 @@
 }
 
 /* Vertical layout;
- *
  */
+
 .noUi-pips-vertical {
 	padding: 0 10px;
 	height: 100%;
