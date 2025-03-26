@@ -821,3 +821,36 @@
     firdip_stretch();
   });
 })(jQuery);
+
+document.querySelectorAll("a").forEach(link => {
+  // mailto ve tel yapıları hariç tut
+  if (!link.href.startsWith("mailto:") && !link.href.startsWith("tel:") && !link.href.startsWith("https://wa.me")) {
+    link.addEventListener("click", function(event) {
+      event.preventDefault(); // Varsayılan yönlendirmeyi durdur
+      const targetUrl = this.getAttribute("href"); // Linkin hedef URL'sini al
+
+      fetch(targetUrl)
+        .then(response => {
+          if (response.ok) {
+            window.location.href = targetUrl; // Sayfa bulunursa yönlendir
+          } else {
+            redirectTo404(targetUrl); // Sayfa yoksa uygun 404'e yönlendir
+          }
+        })
+        .catch(() => {
+          redirectTo404(targetUrl); // Hata durumunda uygun 404'e yönlendir
+        });
+  });
+  }
+});
+
+function redirectTo404(url) {
+  // Eğer URL içinde '-en' geçiyorsa İngilizce 404'e yönlendir
+  if (url.includes("-en")) {
+    window.location.href = "404-en.html";
+  }
+  // Eğer URL içinde '-en' geçiyormisa türkçe 404'e yönlendir
+  else {
+    window.location.href = "404-tr.html";
+  }
+}
