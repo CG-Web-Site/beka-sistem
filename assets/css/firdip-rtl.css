@@ -3774,6 +3774,12 @@ h6 {
   line-height: normal;
   text-transform: uppercase;
 }
+.sub-menu hr {
+  border: none;
+  height: 2px;
+  background-color: #ccc; /* Gri renk */
+  margin: 5px 0;
+}
 .main-menu .sub-menu .dropdown::before {
   position: absolute;
   left: 20px;
@@ -13033,6 +13039,16 @@ body.megamenu-popup-active .mobile-nav__content {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
+  line-height: 157%;
+}
+.service-details__sub-title2 {
+  margin: 0;
+  margin-bottom: 17px;
+  color: var(--firdip-base, #CA4445);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 157%;
 }
 .service-details__text {

@@ -13060,6 +13060,28 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 30px;
   line-height: 157%;
 }
+.service-details__sub-title_m {
+  margin: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  color: var(--firdip-base, #CA4445);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 157%;
+}
+.service-details__sub-title_s {
+  margin: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  color: var(--firdip-base, #CA4445);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 157%;
+}
 .service-details__text {
   margin: 0;
   color: var(--firdip-text, #7D8081);
